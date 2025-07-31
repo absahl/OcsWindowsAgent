@@ -1,0 +1,3 @@
+query-filters:
+  - include:
+    suite: security-extended

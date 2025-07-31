@@ -18,6 +18,5 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           build-mode: none
+          config-file: .github/workflows/codeql-config.yml
       - uses: github/codeql-action/analyze@v3
-        with:
-          query-suite: security-extended

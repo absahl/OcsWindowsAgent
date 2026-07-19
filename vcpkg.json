@@ -1,0 +1,29 @@
+{
+  "name": "ocs-windows-agent",
+  "version": "1.0.0",
+  "builtin-baseline": "0878b5224d4a4968940ee296a2e7fae2d3b62983",
+  "dependencies": [
+    "zlib",
+    "openssl",
+    "curl",
+    "tinyxml"
+  ],
+  "overrides": [
+    {
+      "name": "zlib",
+      "version": "1.3.2"
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.3"
+    },
+    {
+      "name": "curl",
+      "version": "8.21.0"
+    },
+    {
+      "name": "tinyxml",
+      "version": "2.6.2"
+    }
+  ]
+}
